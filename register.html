@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#F8F3E8">
+<title>注册 · 万物生长无糖茶 / 茶友档案</title>
+<meta name="description" content="用 3 步建立万物生长茶友档案：基本信息、口味偏好、确认。演示注册，只保存在本机浏览器。">
+<link rel="icon" href="assets/img/emblem_deep.png">
+<link rel="stylesheet" href="assets/css/site.css">
+<script src="assets/js/site.js" defer></script>
+<script src="assets/js/register.js" defer></script>
+</head>
+<body data-page="register">
+<a class="skip-link" href="#main">跳到正文</a>
+
+<header class="site-header" id="siteHeader">
+  <div class="shell header-inner">
+    <a class="brand" href="index.html" aria-label="万物生长首页">
+      <img src="assets/img/logo_deep.png" alt="万物生长" width="760" height="221">
+      <span>All Things Grow</span>
+    </a>
+    <nav class="nav" aria-label="主导航">
+      <a href="products.html" data-nav="products">产品</a>
+      <a href="brand.html" data-nav="brand">品牌</a>
+      <a href="survey.html" data-nav="survey">调查</a>
+      <a href="find.html" data-nav="find">寻找</a>
+    </nav>
+    <div class="header-actions">
+      <a class="header-auth is-active" href="register.html" aria-current="page">注册</a>
+      <a class="btn btn--small" href="find.html#booking">试饮预约</a>
+    </div>
+    <button class="menu-toggle" id="menuToggle" type="button" aria-label="打开菜单" aria-expanded="false" aria-controls="mobileMenu">
+      <i></i><i></i><i></i>
+    </button>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+  <div class="mobile-menu__top">
+    <img src="assets/img/logo_deep.png" alt="万物生长" width="760" height="221">
+    <button class="mobile-close" id="menuClose" type="button" aria-label="关闭菜单">×</button>
+  </div>
+  <nav class="mobile-nav" aria-label="移动端导航">
+    <a href="index.html"><span>00</span>首页</a>
+    <a href="products.html"><span>01</span>产品</a>
+    <a href="brand.html"><span>02</span>品牌</a>
+    <a href="survey.html"><span>03</span>调查</a>
+    <a href="find.html"><span>04</span>寻找</a>
+  </nav>
+  <a class="btn mobile-cta" href="find.html#booking">试饮预约 <span aria-hidden="true">→</span></a>
+  <a class="mobile-auth" href="register.html">注册 / 茶友档案 <span aria-hidden="true">→</span></a>
+  <div class="mobile-meta">
+    <span>ALL THINGS GROW — 2026</span>
+    <span>课程概念项目 · 非娃哈哈官方页面</span>
+  </div>
+</div>
+
+<main id="main">
+  <section class="page-hero" id="top">
+    <div class="shell page-hero-grid">
+      <div class="page-hero-copy">
+        <div class="breadcrumb"><a href="index.html">首页</a><i></i><span>注册</span></div>
+        <p class="eyebrow">REGISTER / 茶友档案</p>
+        <h1>把你的日常，<br>写进一杯茶里。</h1>
+        <p class="lede">用 3 步建立一份茶友档案：留下称呼、口味偏好和饮用场景。首批试饮会优先匹配你的档案。</p>
+        <div class="page-hero-side" style="margin-top:26px;">
+          <div class="meta-list"><span>3 步完成</span><span>本机演示</span><span>不发送短信</span></div>
+        </div>
+      </div>
+      <figure class="page-hero-media">
+        <div class="page-hero-frame">
+          <img src="assets/img/still_16x9.jpg" alt="万物生长三款无糖茶与茶杯" width="1400" height="788">
+        </div>
+        <figcaption><span>三种香气 / 茶友档案</span><span>REGISTER PLATE</span></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="section section--panel" id="register">
+    <div class="shell register-grid">
+      <aside class="register-aside">
+        <div class="eyebrow" data-reveal>3 STEPS</div>
+        <h2 data-reveal>一个档案，<br>三种香气。</h2>
+        <ol class="steps" aria-label="注册步骤">
+          <li class="step is-active" data-step="1" aria-current="step">
+            <span class="step__no">01</span>
+            <div><b>基本信息</b><small>称呼、手机号、验证码</small></div>
+          </li>
+          <li class="step" data-step="2">
+            <span class="step__no">02</span>
+            <div><b>口味偏好</b><small>想试的风味、常喝场景</small></div>
+          </li>
+          <li class="step" data-step="3">
+            <span class="step__no">03</span>
+            <div><b>完成</b><small>确认信息，生成茶友档案</small></div>
+          </li>
+        </ol>
+        <div class="benefits">
+          <h3>注册后可以</h3>
+          <ul>
+            <li>保存口味偏好，下次直接看自己喜欢的</li>
+            <li>试饮安排优先匹配同城与所选风味</li>
+            <li>首批上市信息只发一次，不打扰</li>
+          </ul>
+        </div>
+        <p class="small" style="margin-top:18px;max-width:36ch;">演示注册，不会真实发送短信；档案只保存在本机浏览器，不会上传服务器。</p>
+      </aside>
+
+      <div class="auth-card" id="authCard">
+        <div class="existing-banner" id="existingBanner">
+          <span>这台电脑上已有一份演示档案：<b id="existingName">茶友</b>。</span>
+          <span class="existing-banner__actions">
+            <button type="button" data-continue>继续查看</button>
+            <button type="button" data-reset>重新注册</button>
+          </span>
+        </div>
+
+        <form id="registerForm" novalidate>
+          <div class="step-panel is-active" data-panel="1">
+            <div class="step-head">
+              <div class="step-count">01 / 03</div>
+              <h3>先认识一下</h3>
+              <p>只要一个称呼、一个手机号和一个城市。验证码是演示用的，不会真的发短信。</p>
+            </div>
+            <div class="form">
+              <div class="field" data-field="name">
+                <label for="regName">称呼 *</label>
+                <input id="regName" name="name" type="text" autocomplete="nickname" placeholder="怎么称呼你">
+                <span class="error" aria-live="polite"></span>
+              </div>
+              <div class="field" data-field="phone">
+                <label for="regPhone">手机号 *</label>
+                <input id="regPhone" name="phone" type="tel" inputmode="numeric" autocomplete="tel" maxlength="11" placeholder="11 位手机号">
+                <span class="error" aria-live="polite"></span>
+              </div>
+              <div class="field" data-field="code">
+                <label for="regCode">验证码 *</label>
+                <div class="code-row">
+                  <input id="regCode" name="code" type="text" inputmode="numeric" maxlength="6" placeholder="6 位演示码">
+                  <button class="code-btn" id="codeBtn" type="button">获取验证码</button>
+                </div>
+                <span class="error" aria-live="polite"></span>
+              </div>
+              <div class="field" data-field="city">
+                <label for="regCity">城市 *</label>
+                <input id="regCity" name="city" type="text" autocomplete="address-level2" placeholder="例如：杭州">
+                <span class="error" aria-live="polite"></span>
+              </div>
+            </div>
+            <div class="step-actions">
+              <span class="step-hint" id="codeHint">点击「获取验证码」查看演示码；不会真实发送短信。</span>
+              <button class="btn btn--solid" type="button" data-next>下一步 <span aria-hidden="true">→</span></button>
+            </div>
+          </div>
+
+          <div class="step-panel" data-panel="2">
+            <div class="step-head">
+              <div class="step-count">02 / 03</div>
+              <h3>你平时怎么喝茶</h3>
+              <p>选你真正想试的，不用都选。之后产品页和试饮安排会参考这份偏好。</p>
+            </div>
+
+            <div class="group-label"><span>想试的风味 *</span><small>可多选</small></div>
+            <div class="choice-grid" data-group="flavors">
+              <label class="choice"><input type="checkbox" name="flavors" value="茉莉花茶"><span><b>茉莉花茶</b><small>花香清扬，入口清爽</small></span></label>
+              <label class="choice"><input type="checkbox" name="flavors" value="桂花乌龙"><span><b>桂花乌龙</b><small>焙火打底，桂花不压茶</small></span></label>
+              <label class="choice"><input type="checkbox" name="flavors" value="乌龙茶"><span><b>乌龙茶</b><small>醇厚回甘，涩感可控</small></span></label>
+              <label class="choice"><input type="checkbox" name="flavors" value="都可以"><span><b>都可以</b><small>先各来一瓶，慢慢选</small></span></label>
+            </div>
+            <p class="group-error" data-error="flavors">至少选一款想试的风味。</p>
+
+            <div class="group-label"><span>常在什么时候喝 *</span><small>可多选</small></div>
+            <div class="choice-grid" data-group="scenes">
+              <label class="choice"><input type="checkbox" name="scenes" value="办公桌边"><span><b>办公桌边</b><small>学习或工作时</small></span></label>
+              <label class="choice"><input type="checkbox" name="scenes" value="通勤途中"><span><b>通勤途中</b><small>地铁、公交、路上</small></span></label>
+              <label class="choice"><input type="checkbox" name="scenes" value="午饭旁边"><span><b>午饭旁边</b><small>解腻，代替甜饮</small></span></label>
+              <label class="choice"><input type="checkbox" name="scenes" value="运动之后"><span><b>运动之后</b><small>想喝点有味道的</small></span></label>
+            </div>
+            <p class="group-error" data-error="scenes">至少选一个饮用场景。</p>
+
+            <div class="step-actions">
+              <button class="btn" type="button" data-prev>← 上一步</button>
+              <button class="btn btn--solid" type="button" data-next>下一步 <span aria-hidden="true">→</span></button>
+            </div>
+          </div>
+
+          <div class="step-panel" data-panel="3">
+            <div class="step-head">
+              <div class="step-count">03 / 03</div>
+              <h3>确认你的档案</h3>
+              <p>再看一眼。创建后可以在本机浏览器里继续查看，也可以随时重新填写。</p>
+            </div>
+
+            <dl class="review-list" id="reviewList"></dl>
+
+            <label class="consent">
+              <input id="consent" type="checkbox">
+              <span>我了解这是课程概念演示：不会发送短信，档案只保存在本机浏览器，不会上传服务器。查看 <a href="find.html">寻找与试饮说明</a>。</span>
+            </label>
+            <div class="form-error-summary" id="formError" role="alert"></div>
+
+            <div class="step-actions">
+              <button class="btn" type="button" data-prev>← 上一步</button>
+              <button class="btn btn--solid" type="submit">创建档案 <span aria-hidden="true">→</span></button>
+            </div>
+          </div>
+        </form>
+
+        <div class="member-success" id="memberSuccess">
+          <div class="member-card">
+            <div class="member-card__label">万物生长 · 茶友档案</div>
+            <div class="member-card__no" id="memberNo">WS-2026-0000</div>
+            <h3 class="member-card__name" id="memberName">茶友</h3>
+            <div class="member-card__meta">
+              <div><span>城市</span><b id="memberCity">杭州</b></div>
+              <div><span>想试风味</span><b id="memberFlavors">茉莉花茶</b></div>
+              <div><span>常喝场景</span><b id="memberScenes">办公桌边</b></div>
+              <div><span>加入时间</span><b id="memberDate">2026.11.12</b></div>
+            </div>
+            <div class="member-card__foot"><span>ALL THINGS GROW</span><span>演示档案 · 本机保存</span></div>
+          </div>
+          <div class="success-actions">
+            <a class="btn btn--solid" href="products.html">看三种香气</a>
+            <a class="btn" href="find.html#booking">预约试饮</a>
+            <button class="btn" type="button" data-edit>修改档案</button>
+          </div>
+          <p class="success-note">档案已保存在本机浏览器，不会上传服务器；换浏览器或清除缓存后会丢失。</p>
+        </div>
+
+        <p class="register-note">演示注册流程：验证码固定为 <b>246810</b>，仅用于展示交互；请勿填写真实敏感信息。</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="shell">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="assets/img/logo_deep.png" alt="万物生长" width="760" height="221">
+        <p>一叶生长，茶入日常。以杭州为灵感的无糖茶概念品牌，三种香气，500mL。</p>
+      </div>
+      <div class="footer-col">
+        <h4>浏览</h4>
+        <a href="products.html">产品</a>
+        <a href="brand.html">品牌</a>
+        <a href="survey.html">调查</a>
+        <a href="find.html">寻找</a>
+      </div>
+      <div class="footer-col">
+        <h4>更多</h4>
+        <a href="find.html#booking">试饮预约</a>
+        <a href="survey.html#method">调查方法</a>
+        <a href="brand.html#visual">视觉系统</a>
+        <a href="register.html">注册 / 茶友档案</a>
+      </div>
+      <div class="footer-col">
+        <h4>声明</h4>
+        <p class="footer-legal">课程概念设计，非娃哈哈官方页面，未获品牌授权，不用于商业用途。产品与场景图像为 AI 辅助生成的概念视觉；问卷 n=40，课堂样本，不代表全市场。</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year>2026</span> 万物生长 · All Things Grow · 第一组 陈金鑫、王成</span>
+      <a class="to-top" href="#top">回到顶部 ↑</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
