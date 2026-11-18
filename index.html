@@ -3,304 +3,89 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#0B110E">
-<title>万物生长 · 无糖茶 / 一叶生长，茶入日常</title>
-<meta name="description" content="万物生长无糖茶品牌官网：同一座山，三种香气。茉莉花茶、桂花乌龙、乌龙茶，500mL，0糖0脂0卡。">
+<meta name="theme-color" content="#10251c">
+<title>万物生长 · 三种香气，一瓶日常</title>
+<meta name="description" content="万物生长无糖茶：茉莉花茶、桂花乌龙、乌龙茶。500mL，0糖0脂0卡，让香气自然生长。">
 <link rel="icon" href="assets/img/emblem_deep.png">
 <link rel="stylesheet" href="assets/css/site.css">
+<link rel="stylesheet" href="assets/css/experience.css">
 <script src="assets/js/site.js" defer></script>
+<script src="assets/js/experience.js" defer></script>
 </head>
-<body data-page="home">
+<body class="experience-home" data-page="home">
 <a class="skip-link" href="#main">跳到正文</a>
-
-<header class="site-header" id="siteHeader">
-  <div class="shell header-inner">
-    <a class="brand" href="index.html" aria-label="万物生长首页">
-      <img src="assets/img/logo_deep.png" alt="万物生长" width="760" height="221">
-      <span>All Things Grow</span>
-    </a>
-    <nav class="nav" aria-label="主导航">
-      <a href="products.html" data-nav="products">产品</a>
-      <a href="brand.html" data-nav="brand">品牌</a>
-      <a href="survey.html" data-nav="survey">调查</a>
-      <a href="find.html" data-nav="find">寻找</a>
+<header class="site-header experience-header" id="siteHeader">
+  <div class="experience-shell experience-header__inner">
+    <a class="brand experience-brand" href="index.html" aria-label="万物生长首页"><img src="assets/img/logo_cream.png" alt="万物生长" width="760" height="221"></a>
+    <nav class="experience-nav" aria-label="主导航">
+      <a href="#collection"><span>01</span>产品</a><a href="brand.html"><span>02</span>品牌</a><a href="survey.html"><span>03</span>调查</a><a href="find.html"><span>04</span>寻找</a>
     </nav>
-    <div class="header-actions">
-      <a class="header-auth" href="register.html">注册</a>
-      <a class="btn btn--small" href="find.html#booking">试饮预约</a>
-    </div>
-    <button class="menu-toggle" id="menuToggle" type="button" aria-label="打开菜单" aria-expanded="false" aria-controls="mobileMenu">
-      <i></i><i></i><i></i>
-    </button>
+    <a class="experience-book" href="find.html#booking">预约试饮 <span>↗</span></a>
+    <button class="menu-toggle experience-menu" id="menuToggle" type="button" aria-label="打开菜单" aria-expanded="false" aria-controls="mobileMenu"><i></i><i></i><i></i></button>
   </div>
 </header>
-
 <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
-  <div class="mobile-menu__top">
-    <img src="assets/img/logo_deep.png" alt="万物生长" width="760" height="221">
-    <button class="mobile-close" id="menuClose" type="button" aria-label="关闭菜单">×</button>
-  </div>
-  <nav class="mobile-nav" aria-label="移动端导航">
-    <a href="index.html"><span>00</span>首页</a>
-    <a href="products.html"><span>01</span>产品</a>
-    <a href="brand.html"><span>02</span>品牌</a>
-    <a href="survey.html"><span>03</span>调查</a>
-    <a href="find.html"><span>04</span>寻找</a>
-  </nav>
+  <div class="mobile-menu__top"><img src="assets/img/logo_deep.png" alt="万物生长" width="760" height="221"><button class="mobile-close" id="menuClose" type="button" aria-label="关闭菜单">×</button></div>
+  <nav class="mobile-nav" aria-label="移动端导航"><a href="index.html"><span>00</span>首页</a><a href="products.html"><span>01</span>产品</a><a href="brand.html"><span>02</span>品牌</a><a href="survey.html"><span>03</span>调查</a><a href="find.html"><span>04</span>寻找</a></nav>
   <a class="btn mobile-cta" href="find.html#booking">试饮预约 <span aria-hidden="true">→</span></a>
-  <a class="mobile-auth" href="register.html">注册 / 茶友档案 <span aria-hidden="true">→</span></a>
-  <div class="mobile-meta">
-    <span>ALL THINGS GROW — 2026</span>
-    <span>课程概念项目 · 非娃哈哈官方页面</span>
-  </div>
+  <div class="mobile-meta"><span>ALL THINGS GROW — 2026</span><span>课程概念项目 · 非商业用途</span></div>
 </div>
-
 <main id="main">
-  <section class="hero" id="top">
-    <div class="shell hero-grid">
-      <div class="hero-copy">
-        <p class="eyebrow">万物生长 · 无糖茶 / 500mL</p>
-        <h1>一叶生长，<br><em>茶入日常。</em></h1>
-        <p class="hero-lede">同一座山，三种香气。<br>看得懂的日常茶。</p>
-        <ul class="hero-facts">
-          <li><b>0糖</b> 0脂 0卡</li>
-          <li><b>500mL</b> 一瓶日常</li>
-          <li><b>三种</b> 茉莉 / 桂花 / 乌龙</li>
-        </ul>
-        <div class="hero-actions">
-          <a class="btn btn--solid" href="products.html">看三种香气 <span aria-hidden="true">→</span></a>
-          <a class="link-arrow" href="find.html#booking">先尝一口</a>
-        </div>
+  <section class="product-hero" id="top" data-product-hero aria-labelledby="heroTitle">
+    <div class="product-hero__wash" aria-hidden="true"></div><div class="product-hero__contours" aria-hidden="true"></div><div class="product-hero__word" data-product-word aria-hidden="true">JASMINE</div>
+    <div class="experience-shell product-hero__layout">
+      <div class="product-hero__intro">
+        <p class="hero-code"><span data-product-number>NO. 01</span> / ALL THINGS GROW</p>
+        <h1 id="heroTitle"><span data-product-name>茉莉花茶</span><small data-product-en>JASMINE TEA</small></h1>
+        <p class="product-hero__lead" data-product-desc>茉莉的香气先到，茶味随后。入口清亮，尾段留下一点干净的回甘。</p>
+        <a class="outline-link" href="products.html#jasmine" data-product-link>查看这一味 <span>↗</span></a>
       </div>
-
-      <figure class="hero-visual">
-        <div class="hero-frame">
-          <img src="assets/img/cover_photo.jpg" alt="万物生长无糖茶产品与茶杯" width="900" height="967" fetchpriority="high">
-        </div>
-        <figcaption class="hero-caption">
-          <span>产品视觉 / 500mL</span>
-          <span>PLATE 00</span>
-        </figcaption>
-        <span class="hero-seal" aria-hidden="true">生长</span>
-      </figure>
-    </div>
-
-    <div class="hero-scroll" aria-hidden="true"><i></i><span>向下 / SCROLL</span></div>
-    <div class="hero-index" aria-hidden="true">00 / 09</div>
-  </section>
-
-  <section class="section section--line" id="belief">
-    <div class="shell">
-      <div class="intro-grid">
-        <h2 class="intro-quote" data-reveal>山不催叶，<br><em>叶自会生长。</em></h2>
-        <div class="intro-copy">
-          <p class="first" data-reveal>日常的一瓶茶，不必讲很大的道理。它只要说清自己是什么茶、什么时候喝、为什么好喝。</p>
-          <p data-reveal data-delay="1">万物生长是一个以杭州为灵感的无糖茶概念品牌。三种风味共用同一座山形骨架，只换茶名、辅助色与一种植物元素；远看是一组，近看才分口味。</p>
-          <div class="intro-sign" data-reveal data-delay="2"><i></i><span>一叶生长，茶入日常</span></div>
+      <div class="product-hero__stage" aria-live="polite">
+        <div class="product-hero__halo" aria-hidden="true"></div><span class="botanical botanical--one" aria-hidden="true">花</span><span class="botanical botanical--two" aria-hidden="true">叶</span>
+        <img class="product-hero__bottle" data-product-bottle src="assets/img/bottle_jasmine.png" alt="万物生长茉莉花茶瓶身" width="520" height="1145" fetchpriority="high">
+        <div class="stage-caption"><span>500mL</span><span>CONCEPT / 2026</span></div>
+      </div>
+      <div class="product-hero__detail">
+        <p class="detail-label">风味档案 / FLAVOR PROFILE</p>
+        <dl class="detail-list"><div><dt>香气</dt><dd data-product-aroma>清扬花香</dd></div><div><dt>口感</dt><dd data-product-taste>轻盈 · 清爽</dd></div><div><dt>时刻</dt><dd data-product-moment>上午 · 办公桌边</dd></div><div><dt>搭配</dt><dd data-product-pair>水果 · 清淡点心</dd></div></dl>
+        <div class="taste-meter" aria-label="香气与回甘强度">
+          <div><span>香气</span><i><b data-meter-aroma style="width:90%"></b></i><em data-meter-aroma-value>90</em></div><div><span>焙火</span><i><b data-meter-roast style="width:20%"></b></i><em data-meter-roast-value>20</em></div><div><span>回甘</span><i><b data-meter-finish style="width:62%"></b></i><em data-meter-finish-value>62</em></div>
         </div>
       </div>
     </div>
-  </section>
-
-  <section class="section section--panel">
-    <div class="shell">
-      <div class="section-head">
-        <div class="eyebrow" data-reveal>01 — 产品家族</div>
-        <div class="head-right">
-          <h2 data-reveal>同一座山，<br>三种香气。</h2>
-          <p class="lede" data-reveal data-delay="1">三款共用同一山形骨架与曲水走向，只换茶名、辅助色和一种植物元素。选一支，看看它的香气从哪里来。</p>
-        </div>
-      </div>
-
-      <div class="flavor-cards">
-        <a class="flavor-card" href="products.html#jasmine" style="--accent:#DCCDB8" data-reveal>
-          <span class="flavor-card__glow" aria-hidden="true"></span>
-          <span class="flavor-card__top"><span class="flavor-card__no">01 / 500mL</span><span class="flavor-card__en">JASMINE</span></span>
-          <img class="flavor-card__img" src="assets/img/bottle_jasmine.png" alt="茉莉花茶" width="520" height="1145" loading="lazy">
-          <span class="flavor-card__meta">
-            <span class="flavor-card__name">茉莉花茶</span>
-            <span class="flavor-card__note">花香清扬，入口清爽。适合上午，配清淡点心。</span>
-            <span class="flavor-card__foot"><span>花香 90 / 回甘 62</span><i aria-hidden="true">→</i></span>
-          </span>
-        </a>
-
-        <a class="flavor-card" href="products.html#osmanthus" style="--accent:#C7A15A" data-reveal data-delay="1">
-          <span class="flavor-card__glow" aria-hidden="true"></span>
-          <span class="flavor-card__top"><span class="flavor-card__no">02 / 500mL</span><span class="flavor-card__en">OSMANTHUS</span></span>
-          <img class="flavor-card__img" src="assets/img/bottle_osmanthus.png" alt="桂花乌龙" width="520" height="1145" loading="lazy">
-          <span class="flavor-card__meta">
-            <span class="flavor-card__name">桂花乌龙</span>
-            <span class="flavor-card__note">焙火打底，桂花不压茶。适合午后，配坚果。</span>
-            <span class="flavor-card__foot"><span>焙火 58 / 回甘 74</span><i aria-hidden="true">→</i></span>
-          </span>
-        </a>
-
-        <a class="flavor-card" href="products.html#oolong" style="--accent:#9A6544" data-reveal data-delay="2">
-          <span class="flavor-card__glow" aria-hidden="true"></span>
-          <span class="flavor-card__top"><span class="flavor-card__no">03 / 500mL</span><span class="flavor-card__en">OOLONG</span></span>
-          <img class="flavor-card__img" src="assets/img/bottle_oolong.png" alt="乌龙茶" width="520" height="1145" loading="lazy">
-          <span class="flavor-card__meta">
-            <span class="flavor-card__name">乌龙茶</span>
-            <span class="flavor-card__note">醇厚回甘，涩感可控。适合佐餐，配油脂料理。</span>
-            <span class="flavor-card__foot"><span>焙火 80 / 回甘 82</span><i aria-hidden="true">→</i></span>
-          </span>
-        </a>
-      </div>
-
-      <div class="section-foot">
-        <span>500mL · 0糖 0脂 0卡 · 三款风味</span>
-        <a class="link-arrow" href="products.html">进入产品页 <span aria-hidden="true">→</span></a>
-      </div>
+    <div class="experience-shell product-switcher" role="tablist" aria-label="选择茶饮口味">
+      <button class="product-tab is-active" type="button" role="tab" aria-selected="true" data-experience-flavor="jasmine"><span>01</span><b>茉莉花茶</b><small>JASMINE</small></button>
+      <button class="product-tab" type="button" role="tab" aria-selected="false" data-experience-flavor="osmanthus"><span>02</span><b>桂花乌龙</b><small>OSMANTHUS</small></button>
+      <button class="product-tab" type="button" role="tab" aria-selected="false" data-experience-flavor="oolong"><span>03</span><b>乌龙茶</b><small>OOLONG</small></button>
+      <div class="switcher-note"><span>切换风味</span><i></i><b data-product-count>01 / 03</b></div>
     </div>
   </section>
-
-  <section class="section section--deep" id="taste">
-    <div class="shell">
-      <div class="curve-grid">
-        <div>
-          <div class="eyebrow" data-reveal>02 — 配方</div>
-          <h2 data-reveal style="margin-top:18px;font-size:clamp(32px,4.2vw,60px);line-height:1.18;">无糖，<br>不是没味道。</h2>
-          <p class="lede" data-reveal data-delay="1" style="margin-top:18px;">在 40 份问卷里，55% 的人说「不喜欢无甜味的口感」。所以我们不把「0 糖」当卖点，而是把香气、回甘和喝法讲清楚。</p>
-          <p class="lede" data-reveal data-delay="2" style="margin-top:14px;">甜饮的甜感来得快、落得也快；万物生长把力气放在中段香气和尾段回甘。喝到最后，嘴里还留着一点甜。</p>
-          <div data-reveal data-delay="3" style="margin-top:28px;">
-            <a class="link-arrow" href="products.html#taste">看完整风味曲线 <span aria-hidden="true">→</span></a>
-          </div>
-        </div>
-
-        <div class="curve-panel" data-reveal>
-          <div class="curve-toggle" role="group" aria-label="选择风味曲线">
-            <button class="curve-btn" type="button" data-curve="grow" aria-pressed="true" data-caption="万物生长：香气在中段打开，回甘在最后回来。">万物生长</button>
-            <button class="curve-btn" type="button" data-curve="sweet" aria-pressed="false" data-caption="普通甜饮：第一口很甜，后面只剩水。">普通甜饮</button>
-          </div>
-          <svg class="curve-svg" viewBox="0 0 460 240" role="img" aria-label="风味强度随时间变化的曲线对比">
-            <line class="curve-axis" x1="40" y1="180" x2="430" y2="180"/>
-            <line class="curve-axis" x1="40" y1="24" x2="40" y2="180"/>
-            <line class="curve-axis" x1="140" y1="24" x2="140" y2="180"/>
-            <line class="curve-axis" x1="275" y1="24" x2="275" y2="180"/>
-            <line class="curve-axis" x1="400" y1="24" x2="400" y2="180"/>
-            <text class="curve-label" x="40" y="18">风味强度</text>
-            <text class="curve-label" x="52" y="201">前调</text>
-            <text class="curve-label" x="158" y="201">中段</text>
-            <text class="curve-label" x="286" y="201">尾段</text>
-            <text class="curve-label" x="408" y="201">回甘</text>
-            <g class="curve-group is-active" data-curve="grow">
-              <path class="curve-line curve-line--grow" d="M40,146 C80,140 110,128 145,108 C180,88 210,84 245,98 C275,110 300,126 330,122 C365,118 390,96 430,88"/>
-              <circle cx="430" cy="88" r="3.4" fill="#C7A15A"/>
-            </g>
-            <g class="curve-group" data-curve="sweet">
-              <path class="curve-line curve-line--sweet" d="M40,60 C80,48 110,62 145,96 C180,130 215,158 255,166 C310,176 370,176 430,178"/>
-              <circle cx="430" cy="178" r="3.4" fill="#B44832"/>
-            </g>
-          </svg>
-          <p class="curve-caption" data-curve-caption>万物生长：香气在中段打开，回甘在最后回来。</p>
-          <div class="curve-legend"><span class="grow"><i></i>万物生长</span><span class="sweet"><i></i>普通甜饮</span></div>
-        </div>
-      </div>
+  <section class="spec-ledger" aria-label="产品核心信息"><div class="experience-shell spec-ledger__grid">
+    <div data-reveal><small>容量</small><strong>500<em>mL</em></strong><span>刚好一瓶日常</span></div><div data-reveal data-delay="1"><small>糖</small><strong>0<em>g</em></strong><span>不靠甜味抢先</span></div><div data-reveal data-delay="2"><small>脂肪</small><strong>0<em>g</em></strong><span>轻负担饮用</span></div><div data-reveal data-delay="3"><small>能量</small><strong>0<em>kcal</em></strong><span>让茶味留在最后</span></div>
+  </div></section>
+  <section class="collection" id="collection"><div class="experience-shell">
+    <header class="editorial-head"><div data-reveal><span class="editorial-no">01 / COLLECTION</span><p>同一座山，三种香气。<br>远看是一组，近看才分口味。</p></div><h2 data-reveal data-delay="1">选择今天的<br><em>生长方式。</em></h2></header>
+    <div class="collection-grid">
+      <article class="collection-card collection-card--jasmine" data-reveal><a class="collection-card__visual" href="products.html#jasmine" aria-label="查看茉莉花茶"><span class="collection-card__type" aria-hidden="true">茉莉</span><img src="assets/img/bottle_jasmine.png" alt="茉莉花茶" width="520" height="1145" loading="lazy"><span class="collection-card__index">01 — 03</span></a><div class="collection-card__copy"><div><h3>茉莉花茶</h3><p>花香清扬，入口清爽。</p></div><a href="products.html#jasmine">查看风味 ↗</a></div></article>
+      <article class="collection-card collection-card--osmanthus" data-reveal data-delay="1"><a class="collection-card__visual" href="products.html#osmanthus" aria-label="查看桂花乌龙"><span class="collection-card__type" aria-hidden="true">桂花</span><img src="assets/img/bottle_osmanthus.png" alt="桂花乌龙" width="520" height="1145" loading="lazy"><span class="collection-card__index">02 — 03</span></a><div class="collection-card__copy"><div><h3>桂花乌龙</h3><p>焙火打底，桂花不压茶。</p></div><a href="products.html#osmanthus">查看风味 ↗</a></div></article>
+      <article class="collection-card collection-card--oolong" data-reveal data-delay="2"><a class="collection-card__visual" href="products.html#oolong" aria-label="查看乌龙茶"><span class="collection-card__type" aria-hidden="true">乌龙</span><img src="assets/img/bottle_oolong.png" alt="乌龙茶" width="520" height="1145" loading="lazy"><span class="collection-card__index">03 — 03</span></a><div class="collection-card__copy"><div><h3>乌龙茶</h3><p>醇厚回甘，涩感可控。</p></div><a href="products.html#oolong">查看风味 ↗</a></div></article>
     </div>
+  </div></section>
+  <section class="origin-story" aria-labelledby="originTitle">
+    <div class="origin-story__image"><img src="assets/img/tea_field.jpg" alt="云雾下的茶园山脊" width="1600" height="1066" loading="lazy"></div><div class="origin-story__veil" aria-hidden="true"></div>
+    <div class="experience-shell origin-story__content"><p class="origin-story__chapter" data-reveal>02 / ORIGIN · HANGZHOU</p><h2 id="originTitle" data-reveal>山不催叶，<br><em>叶自会生长。</em></h2><div class="origin-story__text" data-reveal data-delay="1"><p>万物生长从杭州的山、水、茶里找到了自己的轮廓。我们不把“0 糖”写成一句空口号，而是把茶的香气、焙火与回甘说清楚。</p><a href="brand.html">进入品牌故事 <span>↗</span></a></div><div class="origin-story__coords" aria-hidden="true"><span>30.2741° N</span><span>120.1551° E</span></div></div>
   </section>
-
-  <section class="field-band" aria-labelledby="beliefBand">
-    <img class="field-band__img" src="assets/img/tea_field.jpg" alt="云雾下的茶园山脊" width="1600" height="1066" loading="lazy">
-    <div class="shell field-band__inner">
-      <p class="field-band__quote" id="beliefBand" data-reveal>万物各有时。</p>
-      <div class="field-band__meta">
-        <span>PLATE 01 / 品牌信念</span>
-        <span>不催、不赶，按自己的时间打开。</span>
-      </div>
-    </div>
-  </section>
-
-  <section class="section section--panel" id="surveyStrip">
-    <div class="shell">
-      <div class="section-head">
-        <div class="eyebrow" data-reveal>03 — 调查</div>
-        <div class="head-right">
-          <h2 data-reveal>40 份问卷，<br>一杯茶的答案。</h2>
-          <p class="lede" data-reveal data-delay="1">在做这瓶茶之前，我们先整理了 40 份课堂问卷：喝不喝无糖茶、为什么买、什么阻止了他们。样本不大，但足够指出方向。</p>
-        </div>
-      </div>
-
-      <div class="stats-strip" data-reveal>
-        <div class="stat">
-          <div class="stat__value"><span data-count="72.5" data-decimals="1">72.5</span><small>%</small></div>
-          <div class="stat__label">愿意尝试</div>
-          <div class="stat__note">比较愿意 + 非常愿意</div>
-        </div>
-        <div class="stat">
-          <div class="stat__value"><span data-count="3.67" data-decimals="2">3.67</span><small>/ 5</small></div>
-          <div class="stat__label">概念理解均值</div>
-          <div class="stat__note">但仍有人不知道是什么茶</div>
-        </div>
-        <div class="stat">
-          <div class="stat__value"><span data-count="77.5" data-decimals="1">77.5</span><small>%</small></div>
-          <div class="stat__label">买过东方树叶</div>
-          <div class="stat__note">头部品牌心智已被占满</div>
-        </div>
-        <div class="stat">
-          <div class="stat__value"><span data-count="55" data-decimals="0">55</span><small>%</small></div>
-          <div class="stat__label">怕「无糖不甜」</div>
-          <div class="stat__note">最大的尝试门槛</div>
-        </div>
-      </div>
-
-      <div class="section-foot">
-        <span>n=40 · 课堂样本 · 仅作概念方向判断</span>
-        <a class="link-arrow" href="survey.html">读完整调查 <span aria-hidden="true">→</span></a>
-      </div>
-    </div>
-  </section>
-
-  <section class="find-band" id="findStrip">
-    <div class="shell">
-      <div class="find-band__grid">
-        <div>
-          <div class="eyebrow" data-reveal>04 — 寻找</div>
-          <h2 data-reveal style="margin-top:16px;">在便利店，<br>遇见一杯茶。</h2>
-          <p data-reveal data-delay="1">67.5% 的人在便利店买无糖茶。首批计划先进杭州的便利店与校园店，4—5 元，顺手就能带走。</p>
-          <div class="find-band__meta" data-reveal data-delay="2">
-            <span>便利店 67.5%</span><span>商超 37.5%</span><span>4—5 元 / 500mL</span>
-          </div>
-        </div>
-        <div class="actions" data-reveal data-delay="2">
-          <a class="btn btn--solid" href="find.html">看在哪里买 <span aria-hidden="true">→</span></a>
-          <a class="link-arrow" href="find.html#booking">预约试饮</a>
-        </div>
-      </div>
-    </div>
-  </section>
+  <section class="taste-story" id="taste"><div class="experience-shell taste-story__grid">
+    <div class="taste-story__visual" data-reveal><img src="assets/img/poster_osmanthus.jpg" alt="桂花乌龙产品海报" width="820" height="1036" loading="lazy"><div class="taste-story__stamp"><span>余韵</span><b>LASTING<br>FINISH</b></div></div>
+    <div class="taste-story__copy"><span class="editorial-no" data-reveal>03 / TASTE CURVE</span><h2 data-reveal>无糖，<br><em>不是没味道。</em></h2><p data-reveal data-delay="1">甜感来得快，茶香生长得慢。万物生长把力量放在中段香气与尾段回甘：第一口不喧闹，喝到最后才完整。</p><div class="flavor-timeline" data-reveal data-delay="2"><div><i style="--h:35%"></i><span>00</span><b>清亮入口</b></div><div><i style="--h:86%"></i><span>03</span><b>香气打开</b></div><div><i style="--h:62%"></i><span>06</span><b>茶味落下</b></div><div><i style="--h:76%"></i><span>09</span><b>回甘回来</b></div></div><a class="dark-link" href="products.html#taste" data-reveal data-delay="3">查看完整风味曲线 <span>↗</span></a></div>
+  </div></section>
+  <section class="evidence"><div class="experience-shell evidence__grid">
+    <div class="evidence__intro"><span class="editorial-no" data-reveal>04 / WHAT PEOPLE SAID</span><h2 data-reveal>先听见，<br>再做一杯茶。</h2><p data-reveal data-delay="1">40 份课堂问卷不是市场结论，但它告诉我们：人们愿意尝试无糖茶，也需要更具体地知道它为什么好喝。</p><a href="survey.html" data-reveal data-delay="2">阅读完整调查 ↗</a></div>
+    <div class="evidence__numbers"><div data-reveal><strong>72.5<small>%</small></strong><span>愿意尝试</span><p>比较愿意 + 非常愿意</p></div><div data-reveal data-delay="1"><strong>55<small>%</small></strong><span>在意无甜味</span><p>最大的尝试门槛</p></div><div data-reveal data-delay="2"><strong>67.5<small>%</small></strong><span>在便利店购买</span><p>让一瓶茶顺手发生</p></div></div>
+  </div></section>
+  <section class="closing-cta"><div class="closing-cta__rings" aria-hidden="true"></div><div class="experience-shell closing-cta__inner"><p data-reveal>05 / TAKE A SIP</p><h2 data-reveal>今天，想从<br><em>哪一味开始？</em></h2><div class="closing-cta__actions" data-reveal data-delay="1"><a href="find.html#booking">预约一次试饮 <span>↗</span></a><a href="products.html">浏览全部产品</a></div><img src="assets/img/bottle_jasmine.png" alt="茉莉花茶瓶身" width="520" height="1145" loading="lazy"></div></section>
 </main>
-
-<footer class="site-footer">
-  <div class="shell">
-    <div class="footer-grid">
-      <div class="footer-brand">
-        <img src="assets/img/logo_deep.png" alt="万物生长" width="760" height="221">
-        <p>一叶生长，茶入日常。以杭州为灵感的无糖茶概念品牌，三种香气，500mL。</p>
-      </div>
-      <div class="footer-col">
-        <h4>浏览</h4>
-        <a href="products.html">产品</a>
-        <a href="brand.html">品牌</a>
-        <a href="survey.html">调查</a>
-        <a href="find.html">寻找</a>
-      </div>
-      <div class="footer-col">
-        <h4>更多</h4>
-        <a href="find.html#booking">试饮预约</a>
-        <a href="survey.html#method">调查方法</a>
-        <a href="brand.html#visual">视觉系统</a>
-        <a href="register.html">注册 / 茶友档案</a>
-      </div>
-      <div class="footer-col">
-        <h4>声明</h4>
-        <p class="footer-legal">课程概念设计，非娃哈哈官方页面，未获品牌授权，不用于商业用途。产品与场景图像为 AI 辅助生成的概念视觉；问卷 n=40，课堂样本，不代表全市场。</p>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <span>© <span data-year>2026</span> 万物生长 · All Things Grow · 第一组 陈金鑫、王成</span>
-      <a class="to-top" href="#top">回到顶部 ↑</a>
-    </div>
-  </div>
-</footer>
+<footer class="site-footer experience-footer"><div class="experience-shell"><div class="experience-footer__top"><img src="assets/img/logo_deep.png" alt="万物生长" width="760" height="221"><p>一叶生长，茶入日常。<br>以杭州为灵感的无糖茶概念品牌。</p><nav aria-label="页脚导航"><a href="products.html">产品</a><a href="brand.html">品牌</a><a href="survey.html">调查</a><a href="find.html">寻找</a><a href="register.html">茶友档案</a></nav></div><div class="experience-footer__bottom"><span>© <span data-year>2026</span> 万物生长 · 第一组 陈金鑫、王成</span><span>课程概念设计 · 非商业用途</span><a href="#top">回到顶部 ↑</a></div></div></footer>
 </body>
 </html>
+
